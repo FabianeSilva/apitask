@@ -6,10 +6,11 @@ Este projeto é uma API para um sistema de gerenciamento de tarefas, onde cada t
 ## Responsabilidades da API
 - Retornar uma lista de todas as tarefas cadastradas,
 - Retornar uma lista de todas as tarefas cadastradas, filtrando por código, retornando "OK - Tarefa Encontrada", "ERRO - Tarefa não localizada" ou "Erro Inesperado,
-- Cadastrar novas tarefas.
+- Cadastrar novas tarefas,
+- Excluir tarefa cadastrada.
 
 ## Ferramenta utilizada para realização de testes
-Para verificar se o código estava funcionando corretamente foi utilizada a Ferramenta POSTMAN, apresentando a mensagem abaixo relacionado no Body do cadastro:
+Para verificar se o código estava funcionando corretamente foi utilizada a Ferramenta POSTMAN e SWAGGER, apresentando a mensagem abaixo relacionado no Body do cadastro:
 
 {
     
